@@ -1,0 +1,48 @@
+.App {
+  width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.left{
+  width: 300px;
+  float:left;
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 1px dashed #efefef;
+}
+.right{
+  width: 370px;
+  float: right;
+  padding-left:20px;
+}
+
+.cart-item{
+  display: inline-block;
+  padding: 0 10px;
+  margin:0 10px;
+  border-right:1px dashed #efefef;
+}
+.cart {
+  display: inline-block;
+  margin:0 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cart-add{
+  background-color: #f60;
+  width:30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color:#fff;
+  border-radius:100%;
+  cursor: pointer;
+}
+
+input {
+  width: 60px;
+}
+img{
+  display: inline-block;
+  width:60px;
+}
